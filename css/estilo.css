@@ -1,5 +1,7 @@
 ﻿@charset "UTF-8";
 
+/* FONTE PADRÃO DO SITE */
+
 *{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -9,26 +11,53 @@
 	margin: 0 auto;
 }
 
+#cabecalho{
+	padding: 10px;
+	background-color: #FFE4B5;
+}
+
+/* TITULO DO CABEÇALHO */
+
+header h1{
+	color:#FF4500;
+	font-weight: bold;
+}
+
+
 /* ESTILO DO MENU */
 
 nav{
+	font-weight: bold;
+	padding: 10px;
 	font-size: 20px;
+	margin: 0 auto;
+}
+
+nav ul{
 	text-align: center;
+	word-spacing: 50px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav li:hover {
+	border-bottom: 4px solid #FF4500;
 }
 
 /* ESTILO DO PARÁGRAFO */
 
 p {
 	width: 100%;
-	text-align:left;
-	text-indent: 30px;
+	text-align:justify;
 }
 
 /* ESTILO DE TEXTO */
 
 span.integer {
-	color:orangered;
-	font-weight: 700;
+	color:#FF4500;
+	font-weight: bold;
 }
 
 /* ESTILO DA IMAGEM COM LEGENDA */
@@ -36,7 +65,7 @@ span.integer {
 figure.foto-legenda {
 	width: 474px;
 	position: relative;
-	border: 5px solid orangered;
+	border: 5px solid #FF4500;
 	margin: 0 auto;
 }
 
@@ -46,7 +75,6 @@ figure.foto-legenda img {
 }
 
 figure.foto-legenda figcaption {
-	font-weight: bold;
 	background-color: rgba(0,0,0,.2);
 	position: absolute;
 	top: 0px;
@@ -61,7 +89,7 @@ figure.foto-legenda:hover figcaption {
 }
 
 figure.foto-legenda h3{
-	color: orangered;
+	color: #FF4500;
 }
 
 /* ESTILO DO RODAPÉ DO SITE */
