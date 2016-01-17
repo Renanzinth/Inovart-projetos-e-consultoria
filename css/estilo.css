@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .renan{
 	color:pink;
+	background-color: #000;
 }
 *{
 	font-family: 'Open Sans', sans-serif;
